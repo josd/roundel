@@ -5,7 +5,7 @@ Roundel is expressed in [ISO Prolog](https://en.wikipedia.org/wiki/Prolog#ISO_Pr
 TERM            | Examples
 ----------------|---------
 URI             | `'<http://example.org/etc#Socrates>'`
-LITERAL         | `literal('Hello world!', type('<http://www.w3.org/2001/XMLSchema#string>'))` `literal('chat', lang(fr))` `1.52` `1e-19`
+LITERAL         | `literal('Hello world!', type('<http://www.w3.org/2001/XMLSchema#string>'))` `literal(chat, lang(fr))` `1.52` `1e-19`
 VARIABLE        | `X` `_abc` `_`
 LIST            | `[TERM,...]` `[TERM,...`\|`LIST]` `[]`
 TRIPLE          | `URI(TERM,TERM)`
