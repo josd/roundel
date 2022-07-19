@@ -35,6 +35,6 @@ run :-
     query(Q),
     Q,
     writeq(Q),
-    write('.\n>'),
+    write('.\n'),
     fail;
     true.
