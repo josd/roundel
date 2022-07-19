@@ -58,7 +58,7 @@ astep(A) :-
 %
 % built-ins
 %
-'https://josd.github.io/eye/ns#pso_triple'([P, S, O], Triple) :-
+'<https://josd.github.io/eye/ns#pso_triple>'([P, S, O], Triple) :-
     (   var(P)
     ->  pred(P)
     ;   true

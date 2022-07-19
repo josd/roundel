@@ -4,8 +4,8 @@ Roundel is expressed in [ISO Prolog](https://en.wikipedia.org/wiki/Prolog#ISO_Pr
 
 TERM            | Examples
 ----------------|---------
-IRI             | `'http://example.org/etc#Socrates'`
-LITERAL         | `"abc"` `"chat"-fr` `"2022-01-15"-'http://www.w3.org/2001/XMLSchema#date'` `1.52` `1e-19` `pi`
+IRI             | `'<http://example.org/etc#Socrates>'`
+LITERAL         | `"abc"` `"chat"-fr` `"2022-01-15"-'<http://www.w3.org/2001/XMLSchema#date>'` `1.52` `1e-19` `pi`
 VARIABLE        | `X` `_abc` `_`
 LIST            | `[TERM,...]` `[TERM,...`\|`LIST]` `[]`
 TRIPLE          | `IRI(TERM,TERM)`
