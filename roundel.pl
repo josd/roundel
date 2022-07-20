@@ -36,7 +36,7 @@ labelvars(Term) :-
     ->  true
     ;   Current = 0
     ),
-    numbervars(Term,Current,Next),
+    numbervars(Term, Current, Next),
     assertz(label(Next)).
 
 % assert new step
